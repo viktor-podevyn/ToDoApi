@@ -14,13 +14,12 @@ namespace TodoApi.Properties.Models
         {
         }
 
-        public DbSet<ToDo> TodoItems { get; set; }
+        public DbSet<ToDo> Todo { get; set; }
 
-        public DbSet<Album> Actor { get; set; }
+        public DbSet<Album> Album { get; set; }
 
-        public DbSet<Artist> Actrice { get; set; }
+        public DbSet<Artist> Artist { get; set; }
 
-        public DbSet<Song> Director { get; set; }
-        public object Artist { get; set; }
+        public DbSet<Song> Song { get; set; }
     }
 }

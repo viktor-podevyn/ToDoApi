@@ -12,6 +12,8 @@ namespace TodoApi.Properties.Models
         public int Id { get; set; }
 
         public string Name { get; set; }
+        
+        public int Age { get; set; }
 
         [StringLength(60, MinimumLength = 3)]
         [Required]
